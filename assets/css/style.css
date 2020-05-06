@@ -1,0 +1,129 @@
+a.nav-link{
+    color:black;
+    font-variant-caps: all-petite-caps;
+    font-size: 1.3em;
+}
+nav{background-color: white;}
+div#carouselExampleInterval {
+    height:390px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px #8080803d;
+    overflow: hidden;
+}
+section, main{
+    background-color: #fdfdfd !important;
+}
+
+div#carouselExampleInterval .carousel-inner, div#carouselExampleInterval .carousel-inner .carousel-item,div#carouselExampleInterval .carousel-inner .carousel-item .d-block.w-100{
+    height: inherit;
+}
+div.card {
+    /* margin-top:em; */
+border:none;
+transition: 1s;
+box-shadow: 0px 0px 7px #80808012;
+}
+
+div.card:hover{
+    box-shadow: 0px 0px 12px #80808029;
+}
+span.bgSquarrel {
+    width: 322px; 
+    padding: 7.5em 9em;
+    border-radius: 10px;
+    border: 2px solid #E1CBA1;
+}
+
+section.aboutUs, section.ourMission{
+    margin-top: 13em;
+    margin-bottom: 5em;
+}
+section.affilia{
+    margin-top: 8em;
+}
+
+section.formBlog{
+    margin-top: 8em;
+}
+li {
+    line-height: 28px;
+}
+
+section.aboutUs .col-md-4 span:hover{
+    /* background-color: rgba(128, 128, 128, 0.109); */
+}
+button.btn.btn-primary{
+    background-color: #9a7631 !important;
+    border: none !important;
+    outlie:none !important;
+    box-shadow: 0px 0px 3px #493716c6;
+    transition:1s;
+}
+
+a{
+    color:#cc8e1b !important;
+}
+
+button.btn.btn-primary:hover, button.btn.btn-primary:focus {
+    box-shadow: 0px 2px 3px #493716c6;
+}
+button.btn.btn-primary:focus {
+    background-color: #76571e !important;
+}
+
+div.aflCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+div.aflCont img{
+    margin: auto 2%;
+}
+#abtus{
+    width: 309px;
+    border-radius: 10px;
+    height: 260px;
+    position: absolute;
+    top: -12vh;
+    left: 61px;
+    box-shadow: 0px 0px 8px grey;
+    transition: 1.5s;
+}
+
+#abtus:hover{
+    box-shadow: 0px 0px 8px grey;
+    transform: translateY(-5px);
+}
+.col-md-8.abtCont h3{
+    font-size: 34px;
+}
+.col-md-8.abtCont p{
+    font-size: 19px;
+}
+
+section.productCatal {
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+    a.nav-link {
+        float: right;
+        right: 0;
+        position: absolute;
+    }
+    section.productCatal {
+        /* background-color: white; */
+        width: 100%;
+        padding-top:4.5em;
+        min-height: 300px;
+    }
+    div#carouselExampleIndicators {
+        z-index: -1;
+        margin-top: -25em;
+    }
+
+}
