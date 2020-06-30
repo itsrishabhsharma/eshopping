@@ -1,7 +1,7 @@
 <footer class="container-fluid" style="padding-bottom:15px;">
   <hr/>
   <div style="display:flex;flex-direction:row;justify-content:space-between;">
-    <span>© 2019 Tenant. All rights reserved to NUSIMEX INTERNATIONAL</span>
+    <span>Rishabh Sharma Designs</span>
     <div style="display:flex;flex-direction:row;justify-content:space-between;width: 30%;">
       <a href="#">PRIVACY POLICY</a>
       <a href="#">FACEBOOK</a>
